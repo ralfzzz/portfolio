@@ -4,7 +4,6 @@
 
 .header .navbar{
     background-color: #002F7B !important;
-    border-bottom: solid #AFEB8F;
 }
 
 .nav-link{
@@ -26,8 +25,26 @@
     border-radius: 10px;
 }
 
+.content{
+    background-color: #002F7B;
+    color: #AFEB8F !important;
+}
+
+.text-body-secondary{
+    color: #AFEB8F !important;
+}
+
+.content .container .row{
+    border: 1px solid #AFEB8F;
+    border-radius: 10px;
+}
+
 .footer{
     background-color: #002F7B;
+}
+
+.col h3{
+    color: #AFEB8F !important;
 }
 
 footer .text-body-secondary{
@@ -41,17 +58,4 @@ footer > ul.border-bottom {
 footer > p.reach{
     font-weight: 500;
     font-size: 20px !important;
-}
-
-.card{
-    background-color: #002F7B;
-    text-align: left;
-}
-
-.card h4, .card ul{
-    color: white;
-}
-
-.card h1{
-    color: #AFEB8F;
 }
